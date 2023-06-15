@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    background-size: 1200px;
+    height: 100vh;
+}
+
+#huddle-logo {
+    width: 160px;
+    margin: 40px 60px 90px 60px;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    margin: -30px 0 0 70px;
+    padding: 0 20px 0 30px;
+}
+
+#content-img {
+    margin-left: -80px;
+    max-width: 500px;
+}
+
+#content-info {
+    max-width: 460px;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: start; 
+    align-items: start;
+    text-align: left;
+    margin: 50px 0 20px 270px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 33px;
+    color: white;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+#button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: hsl(257, 40%, 49%);
+    padding: 10px 50px;
+    border-radius: 25px;
+    border: 0;
+    box-shadow: 0px 6px 10px rgba(0.3, 0.3, 0.3, 0.3);
+}
+
+#button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+    cursor: pointer;
+}
+
+#social-media {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    margin: 0 50px 40px 0;
+}
+
+#social-media i {
+    border: 1px white solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin: 0 10px 30px 0;
+}
+
+#social-media i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px hsl(300, 69%, 71%) solid;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+    #huddle-logo {
+        width: 130px;
+        margin-left: 30px;
+    }
+    #content {
+        display: block;
+        margin: -40px auto 0 auto;
+        text-align: center;
+    }
+    #content-img, #huddle-img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    #content-info {
+        text-align: center;
+        margin: 40px auto;
+        width: auto;
+        display: block;
+    }
+    h1 {
+        font-size: 23px !important; 
+        margin: 0 auto;
+    }
+    #social-media {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 0 20px;
+    }
+    #social-media i {
+        width: 25px;
+        height: 25px;
+    }
+}
