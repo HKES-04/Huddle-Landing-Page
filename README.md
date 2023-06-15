@@ -26,7 +26,7 @@ This is a solution to the [Huddle landing page with single introductory section 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
--Media queries
+- Media queries 
 
 
 ### What I learned
