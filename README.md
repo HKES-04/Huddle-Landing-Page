@@ -15,8 +15,8 @@ This is a solution to the [Huddle landing page with single introductory section 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/HKES-04/Huddle-Landing-Page.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/HKES-04/Huddle-Landing-Page.git)
+- Live Site URL: (https://hkes-04.github.io/Huddle-Landing-Page/)
 
 
 ## My process
